@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6f2; /* Light pink background */
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #ff66b2; /* Pink header */
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #cc0066; /* Dark pink navigation bar */
+    padding: 0.5rem 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+/* Product Card */
+.product-card {
+    background-color: white;
+    border: 1px solid #ff99cc; /* Light pink border */
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card .details {
+    padding: 1rem;
+}
+
+.product-card .details h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.2rem;
+}
+
+.product-card .details p {
+    margin: 0 0 1rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.product-card .details .price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #ff66b2; /* Pink price text */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #cc0066; /* Dark pink footer */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
